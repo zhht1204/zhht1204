@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "【gal图文记录】たんていぶ －探偵と幽霊と怪盗と－"
+date:   2013-01-14 01:29:06 +0800
+categories: article galgame
+tags: [galgame,psp,侦探部]
+---
+
+<article>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-1.png" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+说起来我是比较喜欢玩稍许有点考验思考能力的游戏的，比如弹丸论破，两作都是不看攻略自己玩通的，花的时间也不是特别多。不过这种类型的好游戏终究少，毕竟要出这种游戏，也需要比一般人更富有想象力创造力逻辑推理能力的作者啊。。不过也或许只是很多我都没发现罢了，而且如果是在pc平台的话这类好作品好像还不少的样子。</div>
+<!-- more -->
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">以上只是稍微感叹感叹。。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+这次的这作，侦探部，也是一个系列的形式，目前出到第四卷。我也是在乱翻的时候找到的，玩了玩意外地还不错，特别是声优，这个。。花泽香菜啊井口裕香啊茅原实里啊。。。我还是不多说了。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">所以决定做下图文记录吧。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">（｛｝内为我的想法）</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;"><font style="font-size: 20px;" color="#6F3198">第一章 盗难事件与侦探少女</font></div>
+<div style="text-indent:2em;"><br></div>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-2.jpg" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;">
+游戏一开始主角（小牧锐太）就倒在一片“血泊”中，一下就证明了他“避雷针”这个外号并非浪得虚名。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+周围的群众一片骚乱，有的说找老师，有的说找医务班，意识迷糊的主角渐渐醒了过来，当正在打电话叫老师的人说出“血泊”中的人身上Dsn（Digital
+Student Note，即设定中每个学生都持有的移动型终端）显示的名字时他才明白引起骚乱的原来是自己。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+锐太一下子跳了起来，说明了其实地上的并非血，而是打翻的自己买的番茄酱，而自己是被堆积起来的桌子倒下压倒的，道歉了好多次后准备趁乱溜走。此时一个穿着黑色外套的美少女拦住了他的去路。</div>
+<div style="text-indent:2em;"><br></div>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-3.jpg" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;">她的名字是冰口真矢（ひぐち
+まや），突然登场的她强硬地把锐太带走，并声称锐太有盗窃的嫌疑。</div>
+<div style="text-indent:2em;"><br></div>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-4.jpg" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;">
+锐太被带到了部室栋的一间房间里，巨大的事物桌，沙发，沙发前还有配用的茶桌，看起来很豪华的样子。从属“回家部”的锐太除了见学会的时候外几乎没有来过部室栋，但是隐约记得应该没有这么豪华的部室的吧。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+邀请锐太坐下后真矢去泡了咖啡，却只泡了一杯，给了主角，说是咖啡豆只剩下泡一杯的量了。<font color="#B4B4B4">｛不过为什么她不自己喝？一般来说她用不着对一个自己怀疑是盗窃犯的人那么客气吧。还是说应该从这里推断出发生的盗窃事件并非大事呢。｝</font></div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">锐太看着她的装扮，乱想了起来，此时出现了第一个选择项。</div>
+<div style="text-indent:2em;"><br></div>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-5.jpg" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;"><font color="#FF2541">①好像侦探啊！</font></div>
+<div style="text-indent:2em;"><font color="#FF2541">②无法直视啊！</font></div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+看了主题的我当然选了第一个。锐太不小心说了出来，听到了这话的真矢看起来像是身上什么奇怪的开关被打开一样兴奋得都让锐太有些不知所措了。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+之后冷静下来的真矢开始进入主题，也就是关于盗窃事件的话题。她问了锐太两个问题，一，锐太在第六节课时是不是拿着体育准备栋的钥匙；二，锐太在那节课上课后是否有进入过体育准备栋。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+锐太说自己的确在那时拿着体育准备栋的钥匙，因为当时是他在值日，但那只是为了进入准备栋的仓库的。接着，主角灵光一闪，难道，难道被偷的是……真矢充满气势地一指，说道，没错，被盗的就是体育准备栋中的女子更衣室！<font color="#B4B4B4">｛我就知道。。。喜闻乐见。｝<span style="line-height: 21px; text-indent: 2em;">｛某种意义上来说被盗的是什么基本已经明确了，一定是学生的东西，因为如果是老师的东西那么不会请这么个“学生侦探”来找，而是会采取更有效率的手段，比如排除法。而女子更衣室的东西。。嗯。基本除了内衣也没啥好偷的了吧。｝</span></font></div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+锐太身经百战而生成的危险雷达马上就响了起来，女子更衣室+偷盗事件——变态？！，这两个组合起来基本可以把自己的整个高中生涯给黑历史化了啊！<font color="#B4B4B4">｛我觉得如果你真的被认作犯人的话不止高中，可能整个人生就毁了吧。。｝</font></div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+看锐太一脸泛青的样子真矢以为自己是猜中了，得意洋洋的样子，听到锐太说两个问题的答案都是yes后，再加上之前询问到的锐太的同学的证言（上课中只有锐太一个人出去过，并且时间不短），一下子就认定锐太为犯人了。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+锐太自然是拼命争辩，自己花了很长时间是为了补充用完的画线用的石灰，没有办法。又说道，自己听以前值日的同学说过他去试过开那里的门但女子更衣室的锁与男子拿着的钥匙根本不配。<font color="#B4B4B4">｛那位同学也是绅士啊。。｝</font>最后，值日的学生分男女，拿着钥匙的不止是自己，可能是女方的那位偷的。但是这个论点一下就被打破了（？），因为那时的女方管理者就是真矢自己。<font color="#B4B4B4">｛自己伸张并不一定自己就不是犯人，毕竟也有可能是恶人先告状之类的情况。。｝</font>但是这样换句话说，也就证明了锐太并没有拿着女子更衣室的钥匙，因为女子更衣室的钥匙只有一把，基本算是没有备用，但是就算有备用的，教师一般也不会告诉学生在哪里的。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">
+但是真矢仍是不认输地主张锐太才是犯人，因为那时只有他进入过准备栋。锐太便提出，如果是这样的话那么女子更衣室里应该留有他的痕迹，比如指纹之类的，只要找出这类证据就能一下子分清锐太是有罪还是无罪了。真矢同意了，并拿出了采集指纹的工具。｛虽然本篇里也吐槽了，不过我还是想说句，就算稍微有那么点天然呆不过真不愧是侦探。。好高端。｝</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;"><font color="#00B7EF">取得证据【锐太的指纹】</font></div>
+<div style="text-indent:2em;"><font color="#00B7EF"><br></font></div>
+<div style="text-indent:2em;">(其间探索得到的情报：</div>
+<div style="text-indent:2em;">
+一。锐太所在的学校在传言中是日本花费资金最多的学校，因建造时是在<a href="http://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB" target="_blank">日本泡沫经济</a>的全盛期，各种资产家为了自己的子孙后代而投入大量资金在这所学校上。直到如今还有一些这样的投资者的子孙在学校里享受着豪奢的特殊待遇，被称为绚烂会。绚烂会的会员平时住在校舍对面的一座像城堡一般的“绚烂阁”中。</div>
+<div style="text-indent:2em;">
+二，男主“避雷针”的体质（开学才十天就天天都碰到重大的倒霉事）很早以前就有了，如今是被称为“避雷针”，但初中时是被称为“不死身的男人”，遇到各种生死攸关的危险却没死，已经成为传说中的人物。还有传说像是他躲开各种危及的身影别人连残像都看不到，像是他其实是忍者的末裔啊，像是他是被某组织雇佣的人物之类的，将来要成为强大的狙击手或者佣兵之类的。。<font color="#B4B4B4">｛男主从各种意义上来说都好神。。｝</font>）</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">接着，两人用“忘了东西”的借口借到了钥匙，前往女子更衣室。</div>
+<div style="text-indent:2em;"><br></div>
+<div style="text-indent:2em;">在前往女子更衣室的途中碰到了一个说话鼻音很重的人<font color="#B4B4B4">｛我感觉声音挺熟悉的。但是坑爹的是op里竟然cv的名字被挡掉了，根本看不见。。我懒得去查了，有兴趣者可以去看看cv表吧。虽然光已知的那几个我就感觉已经闪瞎了。｝</font>，原来是锐太的朋友（三星）。<font color="#B4B4B4">｛一副人生赢家的样子。｝</font></div>
+<div style="text-indent:2em;"><br></div>
+<img src="{{ site.post_image_directory }}/2013-01-14-tanteibu-1-6.jpg" alt="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－" title="【gal图文记录】たんていぶ&nbsp;<wbr>－探偵と幽霊と怪盗と－">
+<div style="text-indent:2em;">话说我决定开始进行这作的汉化了。。当然不是我一个人。。</div>
+<div style="text-indent:2em;">
+所以，这篇姑且就先到这里了，虽然估计也没什么人会看。。如果有人在看的话，可以不抱期待地等等我了。。</div>
+</article>

@@ -3,8 +3,9 @@ layout: post
 title:  "【lrc】【みきとP】サリシノハラ（离去之原）"
 date:   2012-11-17 13:01:43 +0800
 categories: lrc nico
-tags: nico lrc サリシノハラ 离去之原 歌词
+tags: [nico,lrc,みきとP,サリシノハラ,离去之原]
 ---
+
 <div>[ti:サリシノハラ]</div>
 <div>[ar:みきとP ]</div>
 <div>[al:sm19042393]</div>

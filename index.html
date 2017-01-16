@@ -18,7 +18,7 @@ layout: default
     </section>
     <section>
         <div class="row">
-            {% for post in site.posts offset:1 %}
+            {% for post in site.posts offset:1 limit:4 %}
 
                 <article class="{% cycle '6u', '6u$' %} 12u(small)">
                     <header>
@@ -37,4 +37,4 @@ layout: default
             {% endfor %}
         </div>
     </section>
-</div>
+</div> <!-- Main end -->

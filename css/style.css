@@ -918,7 +918,7 @@
 		background-position: top left, top left;
 		background-repeat: repeat, no-repeat;
 		background-size: auto,auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.7);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em 0 0;
@@ -937,10 +937,14 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+		}
+
+		#header h2 {
+			font-size: 1.2em;
 		}
 
 		#header .image.avatar {
@@ -1251,4 +1255,10 @@ img {
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
+	text-indent: 0;
+}
+
+article p {
+	text-indent: 2em;
+	margin-bottom: 1.5em;
 }

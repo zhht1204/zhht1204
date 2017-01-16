@@ -37,5 +37,10 @@ linkedin_username:      # Replace this with your LinkedIn username
 google_plus_username: zhht1204@gmail.com  # Replace this with your Google+ username
 facebook_username:    zhht1204  # Replace this with your Facebook username
 dribbble_username:      # Replace this with your Dribbble username
+
 paginate: 5
 
+post_image_directory: "/images/posts"
+image_directory: "/images"
+css_directory: "/css"
+js_directory: "/js"
