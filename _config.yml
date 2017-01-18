@@ -39,6 +39,7 @@ facebook_username:    zhht1204  # Replace this with your Facebook username
 dribbble_username:      # Replace this with your Dribbble username
 
 paginate: 5
+paginate_path: "/blog/page:num"
 
 post_image_directory: "/images/posts"
 image_directory: "/images"
