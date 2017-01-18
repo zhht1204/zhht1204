@@ -14,20 +14,22 @@
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
 	      href="{{ '/feed.xml' | relative_url }}">
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/rouge.css" />
-	<!--[if lte IE 8]>
-	<script src="{{ site.baseurl }}/css/ie/html5shiv.js"></script><![endif]-->
-	<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-	<script src="{{ site.baseurl }}/js/jquery.poptrox.min.js"></script>
-	<script src="{{ site.baseurl }}/js/skel.min.js"></script>
-	<script src="{{ site.baseurl }}/js/init.js"></script>
+	<link rel="stylesheet" href="{{ site.css_directory }}/rouge.css" />
+	<link rel="stylesheet" href="{{ site.css_directory }}/font-awesome.min.css" />
+
+	<script src="{{ site.js_directory }}/jquery.min.js"></script>
+	<script src="{{ site.js_directory }}/jquery.poptrox.min.js"></script>
+	<script src="{{ site.js_directory }}/skel.min.js"></script>
+	<script src="{{ site.js_directory }}/init.js"></script>
 	<noscript>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css"/>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css"/>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style-xlarge.css"/>
+		<link rel="stylesheet" href="{{ site.css_directory }}/skel.css"/>
+		<link rel="stylesheet" href="{{ site.css_directory }}/style.css"/>
+		<link rel="stylesheet" href="{{ site.css_directory }}/style-xlarge.css"/>
 	</noscript>
 	<!--[if lte IE 8]>
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/ie/v8.css"/><![endif]-->
+	<link rel="stylesheet" href="{{ site.css_directory }}/ie/v8.css"/>
+	<script src="{{ site.css_directory }}/ie/html5shiv.js"></script>
+	<![endif]-->
 	{% if jekyll.environment == 'production' and site.google_analytics %}
 	{% include google-analytics.html %}
 	{% endif %}

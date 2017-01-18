@@ -1262,3 +1262,8 @@ article p {
 	text-indent: 2em;
 	margin-bottom: 1.5em;
 }
+
+.index-bottom {
+	text-align: center;
+	margin: 0 auto;
+}

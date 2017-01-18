@@ -1,0 +1,9 @@
+<div class="index-bottom">
+	{% if paginator.previous_page %}
+		<a class="button" href="{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> 前一页</a>
+	{% endif %}
+
+	{% if paginator.next_page %}
+	<a class="button" href="{{ paginator.next_page_path }}">后一页 <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+	{% endif %}
+</div>
