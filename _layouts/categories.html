@@ -6,7 +6,7 @@ layout: post
 <ul>
 	{% for category in site.categories %}
 	<li>
-		<a href="{{ site.baseurl }}/{{ category | first }}/" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
+		<a href="{{ site.baseurl }}/{{ category | first }} /" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
 	</li>
 	{% endfor %}
 </ul>

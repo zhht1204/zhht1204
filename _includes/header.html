@@ -2,6 +2,9 @@
 <header id="header">
 	<a href="{{ site.url }}" class="image avatar"><img src="{{ site.image_directory }}/avatar.jpg" alt=""/></a>
 	<h1>{{ site.description }} <br>关键词：{{ site.keywords }}</h1>
+	{% if page.categories %}
+	<h2><a href="">{{ page.categories }}</a></h2>
+	{% endif %}
 	<h2><a href="{{ site.baseurl }}/categories.html">分类列表-></a></h2>
 </header>
 <!-- Header End -->

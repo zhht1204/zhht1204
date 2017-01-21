@@ -185,9 +185,7 @@ tags: [it,foobar200,software,错误]
 </blockquote>
 <br>
 <div>如上所见，并没有出现单、双引号嵌套的问题，然而我死马当活马医把双引号全改成单引号了，也还是没用。</div>
-<div>翻来覆去我也找不到有什么语法问题，最后随便试了试改编码，没想到居然成了。。。<img type="face" src="http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___6710EN00SIGG.gif" real_src="http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___6710EN00SIGG.gif" style="line-height: 1.5;" alt="foobar2000中使用cue文件出现解析&nbsp;<wbr>cuesheet&nbsp;<wbr>错误:&nbsp;<wbr>invalid&nbsp;<wbr>TITLE&nbsp;<wbr>syntax错误"></div>
-
-<div>
+<div>翻来覆去我也找不到有什么语法问题，最后随便试了试改编码，没想到居然成了。。。</div>
 <div style="line-height: 21px;">首先一开始是这样的：</div>
 <img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-1.jpg" >
 <img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-2.jpg" >
@@ -195,8 +193,6 @@ tags: [it,foobar200,software,错误]
 <img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-3.jpg" >
 <div>↓</div>
 <img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-4.jpg" >
-<div style="line-height: 21px;"><br>
-<img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-5.jpg" >
-<div style="line-height: 21px;">
-其实我建议，cue的文字编码最好都转成ansi，这样最不容易出错。</div>
+<div><img src="{{ site.post_image_directory }}/2014-01-20-foobar2000-shiyong-cue-error-5.jpg" ></div>
+<div>其实我建议，cue的文字编码最好都转成ansi，这样最不容易出错。</div>
 </article>

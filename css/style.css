@@ -52,8 +52,8 @@
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		color: #66d9ef;
+		font-weight: bold;
 	}
 
 	em, i {
@@ -1263,7 +1263,19 @@ article p {
 	margin-bottom: 1.5em;
 }
 
+article a {
+	border-bottom: none;
+}
+
 .index-bottom {
 	text-align: center;
 	margin: 0 auto;
+}
+
+code {
+	background-color: #fdbcbc;
+	margin: 0.2em;
+	padding: 0.2em;
+	color: #7d0505;
+	border-radius: 0.4em;
 }
