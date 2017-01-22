@@ -11,7 +11,7 @@ layout: post
 	{% for post in site.posts %}
 	{% if post.categories[0] == category0[0] and printed0 == false %} <!-- change level here -->
 	<li><a href="{{ site.baseurl }}/posts?point_category={{ category0 | first }}">
-		{{ category0[0] }} {{category0 | last | size }}
+		{{ category0[0] }} <code>{{category0 | last | size }}</code>
 	 </a></li>
 	{% assign printed0 = true %}
 	<!-- level 1 -->
@@ -21,7 +21,7 @@ layout: post
 		{% for post in site.posts %}
 		{% if post.categories[0] == category0[0] and post.categories[1] == category1[0] and printed1 == false %}
 		<li><a href="{{ site.baseurl }}/posts?point_category={{ category1 | first }}">
-			{{ category1 | first}} {{ category1 | last | size }}
+			{{ category1 | first}} <code>{{ category1 | last | size }}</code>
 		</a></li>
 		{% assign printed1 = true %}
 		{% endif %}
