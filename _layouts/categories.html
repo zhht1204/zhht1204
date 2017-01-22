@@ -1,29 +1,44 @@
 ---
-layout: post
+layout: default
 ---
 
 <h1>文章分类</h1>
 {% assign category_list = site.categories | sort %}
 <!-- level 0 -->
 <ul>
-	{% for category0 in category_list %} <!-- change level here -->
-	{% assign printed0 = false %} <!-- change level here -->
+	{% for category0 in category_list %}
+	{% assign printed0 = false %}
 	{% for post in site.posts %}
-	{% if post.categories[0] == category0[0] and printed0 == false %} <!-- change level here -->
+	{% if post.categories[0] == category0[0] and printed0 == false %}
 	<li><a href="{{ site.baseurl }}/posts?point_category={{ category0 | first }}">
 		{{ category0[0] }} <code>{{category0 | last | size }}</code>
-	 </a></li>
+	</a></li>
 	{% assign printed0 = true %}
 	<!-- level 1 -->
 	<ul>
-		{% for category1 in category_list %} <!-- change level here -->
-		{% assign printed1 = false %} <!-- change level here -->
+		{% for category1 in category_list %}
+		{% assign printed1 = false %}
 		{% for post in site.posts %}
 		{% if post.categories[0] == category0[0] and post.categories[1] == category1[0] and printed1 == false %}
 		<li><a href="{{ site.baseurl }}/posts?point_category={{ category1 | first }}">
 			{{ category1 | first}} <code>{{ category1 | last | size }}</code>
 		</a></li>
 		{% assign printed1 = true %}
+		<!-- level 2 -->
+		<ul>
+			{% for category2 in category_list %}
+			{% assign printed2 = false %}
+			{% for post in site.posts %}
+			{% if post.categories[0] == category0[0] and post.categories[1] == category1[0] and post.categories[2] ==
+			category2[0] and printed2 == false %}
+			<li><a href="{{ site.baseurl }}/posts?point_category={{ category2 | first }}">{{ category2[0] }}
+				<code>{{ category2 | last | size }}</code></a></li>
+			{% assign printed2 = true %}
+			{% endif %}
+			{% endfor %}
+			{% endfor %}
+		</ul>
+		<!-- end of level 2 -->
 		{% endif %}
 		{% endfor %}
 		{% endfor %}
@@ -34,3 +49,12 @@ layout: post
 	{% endfor %}
 </ul>
 <!-- end of level 0 -->
+
+<script>
+	var uls = $('ul');
+	for (var i = 0; i < uls.length; i++) {
+		if ($(uls[i]).html().trim() == '') {
+			uls[i].remove();
+		}
+	}
+</script>

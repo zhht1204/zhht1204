@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div>
+	<h2 class="posts-title">全部文章</h2>
+	<ul>
+	{% for post in site.posts %}
+		<li class="posts-item" category="{{ post.categories | join:'>' }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+<script>
+	var point_category = getParameterValue('point_category');
+	$('.posts-title').html(point_category);
+	var postsItems = $('.posts-item');
+	var postCategory;
+	for(var i=0; i<postsItems.length; i++) {
+		postCategory = $(postsItems[i]).attr('category');
+		console.log(postCategory.indexOf(point_category));
+		if(postCategory.indexOf(point_category) == -1) {
+			$(postsItems[i]).css('display', 'none');
+		}
+	}
+</script>
