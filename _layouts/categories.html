@@ -3,10 +3,46 @@ layout: post
 ---
 
 <h1>文章分类</h1>
-<ul>
+<ul id="categories">
 	{% for category in site.categories %}
-	<li>
-		<a href="{{ site.baseurl }}/{{ category | first }} /" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
+	<li id="{{ category | first }}">
+		<a href="{{ site.baseurl }}/{{ category | first }}/" title="view all posts" class="categories-name">
+			{{ category | first }} <code>{{ category | last | size }}</code>
+		</a>
 	</li>
 	{% endfor %}
 </ul>
+<script>
+	var categories = $('a.categories-name').parent();
+	var categoryName;
+	var subCategoryNames = [];
+	var realCategoriesLink = {};
+	var realCategoriesPaths = {};
+	for(var i=0; i<categories.length; i++) {
+		categoryName = $(categories[i]).find('a').html().trim().split(' ')[0];
+		realCategoriesPaths[categoryName] = '/' + categoryName;
+		subCategoryNames = checkCategory(categoryName);
+		if(subCategoryNames[0] != "false") {
+			realCategoriesLink[categoryName] = subCategoryNames;
+		}
+	}
+	var parentCategoryName, parentCategoryNode;
+	var subCategoryName, subCategoryNode;
+	for(categoryName in realCategoriesLink) {
+		parentCategoryName = categoryName;
+		parentCategoryNode = $('#' + parentCategoryName);
+		parentCategoryNode.append('<ul></ul>');
+		parentCategoryNode = parentCategoryNode.find('ul');
+		for(var i in realCategoriesLink[categoryName]) {
+			subCategoryName = realCategoriesLink[categoryName][i];
+			realCategoriesPaths[subCategoryName] = '/' + parentCategoryName + realCategoriesPaths[subCategoryName];
+			subCategoryNode = $('#' + subCategoryName);
+			parentCategoryNode.append(subCategoryNode);
+			$(subCategoryNode).remove('#categories');
+		}
+	}
+	for(var i=0; i<categories.length; i++) {
+		var realPath = realCategoriesPaths[$(categories[i]).attr('id')];
+		$(categories[i]).find('a').attr('href', realPath);
+	}
+</script>
