@@ -6,12 +6,19 @@
 	<hr>
 	<h2>
 		所属分类：
-		<a href="{{ site.baseurl }}/posts?point_category={{ page.categories | last }}">
-			{{ page.categories | join:' > ' }}
-		</a>
+		{% for category in page.categories %}
+		<a class="post-category-pointer" href="{{ site.baseurl }}/posts?point_category={{ category }}">{{ category }}></a>
+		{% endfor %}
 	</h2>
 	{% endif %}
 	<hr>
 	<h2><a href="{{ site.baseurl }}/categories">分类列表-></a></h2>
+	<script>
+		var postCategoryPointer = $('a.post-category-pointer');
+		if(postCategoryPointer.length > 0) {
+			var lastPointer = $(postCategoryPointer[postCategoryPointer.length-1]);
+			lastPointer.html(lastPointer.html().substring(0, lastPointer.html().length - 4));
+		}
+	</script>
 </header>
 <!-- Header End -->
