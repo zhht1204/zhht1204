@@ -4,45 +4,46 @@ layout: default
 
 {% assign post_total = site.posts | size %}
 <!-- Main -->
-<div id="main">
-	{% unless paginator.previous_page %}
-    <section>
-        {% for post in site.posts limit:1 %}
-            <header class="major">
-                <h2>{{ post.title }}</h2>
-                <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            </header>
+{% unless paginator.previous_page %}
+<section>
+	{% for post in site.posts limit:1 %}
+	<header class="major">
+		<h2>{{ post.title }}</h2>
+		<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{%
+			if page.meta %} • {{ page.meta }}{% endif %}</p>
+	</header>
 
-            <section>
-                {{ post.content }}
-            </section>
-        {% endfor %}
-    </section>
-	{% endunless %}
-	{% assign my_offset = paginator.page | minus:1 | times:4 | plus:1 %}
-    <section>
-        <div class="row">
-            {% for post in site.posts offset:my_offset limit:4 %}
+	<section>
+		{{ post.content }}
+	</section>
+	{% endfor %}
+</section>
+{% endunless %}
+{% assign my_offset = paginator.page | minus:1 | times:4 | plus:1 %}
+<section>
+	<div class="row">
+		{% for post in site.posts offset:my_offset limit:4 %}
 
-                <article class="{% cycle '6u', '6u$' %} 12u(small)">
-                    <header>
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                    </header>
-                    <section>
-                        {{ post.excerpt }}
-                    </section>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="{{ post.url }}" class="button">Read More <i class="fa fa-book" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </footer>
-                </article>
+		<article class="{% cycle '6u', '6u$' %} 12u(small)">
+			<header>
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			</header>
+			<section>
+				{{ post.excerpt }}
+			</section>
+			<footer>
+				<ul class="actions">
+					<li><a href="{{ post.url }}" class="button">Read More <i class="fa fa-book" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</footer>
+		</article>
 
-            {% endfor %}
-        </div>
-	    {% if post_total > 5 %}
-	        <hr>
-            {% include index-bottom.html %}
-	    {% endif %}
-    </section>
-</div> <!-- Main end -->
+		{% endfor %}
+	</div>
+	{% if post_total > 5 %}
+	<hr>
+	{% include index-bottom.html %}
+	{% endif %}
+</section>
+<!-- Main end -->
