@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "三门问题（Monty Hall Question）"
+title:  "三门问题（Monty Hall Problem）"
 date:   2017-01-21 17:30:14 +0800
 categories: article math probability
-tags: [数学,概率论,三门问题,monty-hall-question]
+tags: [数学,概率论,三门问题,monty-hall-Problem]
 ---
 
 <article>
