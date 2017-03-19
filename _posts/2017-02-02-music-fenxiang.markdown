@@ -6,4 +6,4 @@ categories: music
 tags: [music,音乐]
 ---
 
-<audio src="http://7723773.d.yyupload.com/down/7723773/音乐/歌曲/33/3396.すぃ - 雨き声残響.m4a" controls="controls">
+<audio src="http://7723773.d.yyupload.com/down/7723773/分享/オレンジ (Acoustic Ver.).m4a" controls="controls">
