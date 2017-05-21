@@ -1,0 +1,26 @@
+{
+  "name": "zhht1204.github.io",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhht1204/zhht1204.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "zhht1204"
+  ],
+  "author": "zhht1204",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhht1204/zhht1204.github.io/issues"
+  },
+  "homepage": "https://github.com/zhht1204/zhht1204.github.io#readme"
+}

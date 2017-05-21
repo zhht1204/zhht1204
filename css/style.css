@@ -1364,3 +1364,7 @@ code {
 body {
 	background-color: #333;
 }
+
+.well {
+	color: #333;
+}
